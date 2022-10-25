@@ -1,0 +1,41 @@
+{
+  "name": "trakt-youtube-import",
+  "version": "0.0.1",
+  "description": "Import Google Takeout YouTube history and selectively sync to Trakt",
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "vite",
+    "preview": "vite preview --port 4173"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdj/trakt-youtube-import.git"
+  },
+  "author": "cdj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdj/trakt-youtube-import/issues"
+  },
+  "homepage": "https://github.com/cdj/trakt-youtube-import#readme",
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "pinia": "^2.0.21",
+    "quasar": "^2.0.0",
+    "string-similarity": "^4.0.4",
+    "trakt.tv": "^8.1.1",
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "sass": "1.32.12",
+    "sass-loader": "^12.0.0",
+    "vite": "^3.0.9",
+    "vue-cli-plugin-quasar": "~5.0.1"
+  }
+}
